@@ -2,8 +2,10 @@
 A plugin to count the number of chapters in an EPUB's NCX TOC and writes the result to the `#chapter_count` custom column.
 
 # Install
-1. In calibre, create a custom column with `lookup name`: `chapter_count`, `heading`:
-   `Chapter Count`, and `type`: `Integer`.
+1. In calibre, create a custom column with:
+   - `lookup name`: `chapter_count`
+   - `heading`: `Chapter Count`
+   - `type`: `Integer`
 2. Go in `Preferences -> Plugins -> Load plugin from file`.
 3. Select the downloaded plugin release: `calibre_toc_chapter_counter.zip`.
 4. Restart calibre if requested.
